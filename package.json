@@ -35,7 +35,7 @@
     "debug": "^3.2.7",
     "delayed-stream": "^1.0.0",
     "describe": "^1.2.0",
-    "discord": "^0.8.2",
+    "discord.js": "^0.8.2",
     "ecc-jsbn": "^0.1.2",
     "domexception": "^1.0.1",
     "es6-promise": "^4.2.8",
