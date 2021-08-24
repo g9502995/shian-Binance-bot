@@ -9,7 +9,6 @@ const binance = new Binance().options({
 // Authenticated client, can make signed calls
 
 let coinssa = require(`${process.cwd()}/幣種.json`);
-let coin= require(`${process.cwd()}/opop.json`);
 const { Client, Intents } = require('discord.js');
 const { token } = require('./token.json');
 const client = new Client({ intents: ["GUILDS", "GUILD_MESSAGES", "DIRECT_MESSAGES"] });
@@ -83,6 +82,7 @@ async function sss(){
         if(i==a){
           clearInterval(interval);
           interval=null;
+          msg.channel.send("已計算完畢")
         }
 
         
