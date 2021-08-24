@@ -43,7 +43,7 @@ client.on('ready' , () =>{
   logdir: './log',
   nameformat: '幣圈[.txt]',
 });*/
-client.login(token);
+client.login(process.env.TOKEN);
 
 sss();
 const strs = coinssa.coin
