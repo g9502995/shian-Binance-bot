@@ -31,7 +31,9 @@ client.on('ready' , ()  =>{
  });
 
 
+
 client.login(token);
+
 
 sss();
 const strs = coinssa.coin
